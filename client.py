@@ -10,7 +10,7 @@ def run():
     client = MyServiceStub(channel)
 
     # Faça uma chamada para o serviço SayHello
-    response = client.SayHello(HelloRequest(name='Seu Nome'))
+    response = client.SayHello(HelloRequest(name='Jeferson'))
 
     # Exiba a resposta do servidor
     print('Resposta do servidor:', response.message)
